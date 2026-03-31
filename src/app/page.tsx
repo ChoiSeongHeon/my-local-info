@@ -66,7 +66,7 @@ export default function Home() {
                 {/* 버튼 영역 */}
                 <div className="md:w-28 shrink-0 flex items-center justify-end md:justify-center mt-4 md:mt-0">
                   <Link 
-                    href={`/detail/${item.id}`}
+                    href="/blog"
                     className="px-4 py-2 bg-gray-100 hover:bg-sky-500 hover:text-white text-gray-700 font-semibold rounded-lg text-sm transition-colors text-center w-full"
                   >
                     자세히 보기
@@ -114,7 +114,7 @@ export default function Home() {
 
                 <div className="mt-auto">
                   <Link 
-                    href={`/detail/${item.id}`}
+                    href="/blog"
                     className="block text-center w-full bg-[#03c75a] hover:bg-[#02a048] text-white font-bold py-3 rounded-xl shadow-md cursor-pointer transition-colors"
                   >
                     내게 맞는지 확인하기
